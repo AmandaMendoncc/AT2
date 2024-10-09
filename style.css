@@ -1,0 +1,68 @@
+body {
+    font-family: 'Oswald', sans-serif; /* Usando a fonte Oswald */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #ED9D15; /* Cor de fundo da navbar */
+    padding: 10px; /* Adicionando padding horizontal */
+    display: flex; /* Usar flexbox para alinhar logo e lista */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: space-between; /* Espaço entre logo e lista */
+    position: fixed; /* Fixa a navbar no topo */
+    width: 100%; /* Faz a navbar ocupar toda a largura */
+    z-index: 1000; /* Garante que a navbar fique acima de outros elementos */
+}
+
+.logo img {
+    height: 70px; /* Ajuste a altura do logo conforme necessário */
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.3s ease, text-shadow 0.3s ease; 
+}
+
+.nav-list a:hover {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); 
+}
+
+section {
+    padding: 100px 20px; /* Espaçamento nas seções */
+    height: 100vh; /* Altura da seção */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#sobre {
+    background-color: #f4f4f4; /* Cor de fundo para a seção "Sobre Mim" */
+}
+
+#projetos {
+    background-color: #e2e2e2; /* Cor de fundo para a seção "Projetos" */
+}
+
+#curriculo {
+    background-color: #d0d0d0; /* Cor de fundo para a seção "Currículo" */
+}
+
+#contato {
+    background-color: #b8b8b8; /* Cor de fundo para a seção "Contato" */
+}
